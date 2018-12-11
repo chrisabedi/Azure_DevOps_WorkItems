@@ -1,0 +1,27 @@
+{
+  "name": "redisbug",
+  "version": "1.0.0",
+  "description": "RedisBugReporting",
+  "main": "server.js",
+  "author": "Chris Abedi",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "azure-devops-node-api": "^7.0.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "es6-promise": "^4.2.5",
+    "express": "^4.16.4",
+    "fetch": "^1.1.0",
+    "ioredis": "^4.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "redis": "^2.8.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "api": "node server.js",
+    "front": "node front.js",
+    "start": "npm run api & npm run front"
+  }
+}
