@@ -5,7 +5,7 @@ This application uses Auzure DevOps(formally know as VSTS) api to display Work I
 This Project utilizes an Express backend, a redis Database, and bootstrap.
 It leverages the azure-dev-ops-node-api functionality, axios, and redis to grab and store work Items locally and exposes a Development Teams 'in progress bugs', allowing for current and up-to-date progress reports.
 
-![alt-text](https://github.com/chrisabedi/Azure_DevOps_WorkItems/img.jpg)
+![alt-text](./img.jpg)
 
 # Project Structure
   * server.js - backend code running on port 3000. deals with redis db
